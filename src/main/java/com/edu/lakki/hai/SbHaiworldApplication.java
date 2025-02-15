@@ -18,10 +18,6 @@ public class SbHaiworldApplication {
 		SpringApplication.run(SbHaiworldApplication.class, args);
 	}
 	
-	@GetMapping("/hai")
-	public String hello() {
-		logger.info("hai");
-		return "hai.. you just started learning..!";
-	}
+	
 
 }
